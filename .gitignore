@@ -9,10 +9,10 @@
 *.user
 *.userosscache
 *.sln.docstates
-
+*.vscode
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
-
+*.json
 # Mono auto generated files
 mono_crash.*
 
@@ -178,7 +178,7 @@ DocProject/Help/html
 
 # Click-Once directory
 publish/
-
+build/
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
