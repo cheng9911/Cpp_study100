@@ -1,9 +1,6 @@
 cmake_minimum_required(VERSION 3.2)
 project(day1 VERSION 0.1.0 LANGUAGES C CXX)
 
-
-
-
 if(UNIX)
  
 	message("current platform: Linux ")
@@ -14,7 +11,6 @@ if(UNIX)
     include(CPack)
  
 elseif(WIN32)
- 
 	message(" Windows ")
     add_executable(win_day1 win32/day1.cc)
     message("current platform: Windows ")
